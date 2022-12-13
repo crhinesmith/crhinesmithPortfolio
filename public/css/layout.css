@@ -340,18 +340,18 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
-.java {
+.javascript {
    width: 80%;
    -moz-animation: wordpress 2s ease;
    -webkit-animation: wordpress 2s ease;
 }
 .mysql {
-   width: 60%;
+   width: 50%;
    -moz-animation: wordpress 2s ease;
    -webkit-animation: wordpress 2s ease;
 }
 .mongodb {
-   width: 40%;
+   width: 60%;
    -moz-animation: wordpress 2s ease;
    -webkit-animation: wordpress 2s ease;
 }
