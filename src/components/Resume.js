@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+const handleClick = (item) => {
+  window.open(
+    `${item}`, "_blank", "noopener, noreferrer"
+  )
+}
 export default class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -49,7 +54,7 @@ export default class Resume extends Component {
                         <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
 
                       <div>
-                        {item.Achievements.map(achievement => <div> {achievement}<br/> </div>)}
+                        {item.Achievements.map(achievement => <div> {achievement}<br /> </div>)}
                       </div>
                     </div>
 
@@ -92,7 +97,21 @@ export default class Resume extends Component {
           </div>
 
         </div>
+        <div>
+           {
+                resumeData.resume && resumeData.resume.map((item) => {
+                  return (
+                      <h4>
 
+                        <a onClick={() => handleClick(item.resumeurl)}
+                         > Download Formal Resume
+                        </a>
+                      </h4>
+
+                  )
+                })
+              }
+        </div>
       </section>
     );
   }
