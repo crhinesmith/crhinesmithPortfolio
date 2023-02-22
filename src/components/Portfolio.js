@@ -20,10 +20,11 @@ export default class Porfolio extends Component {
                     <div className="columns portfolio-item">
                       <div className="item-wrap">
                         <a
-                        //  onClick={() => handleClick(item.projecturl)}
                         href={item.projecturl} 
+                        onClick={() => handleClick(item.projecturl)}
+                        
                          >
-                          <img src={`${item.imgurl}`} className="item-img" />
+                          <img src={`${item.imgurl}`} className="item-img" alt={`${item.description}`}/>
                           <div className="overlay">
                             <div className="portfolio-item-meta">
                               <h5>{item.name}</h5>
