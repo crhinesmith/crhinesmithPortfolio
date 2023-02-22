@@ -3,7 +3,7 @@ let resumeData = {
   "name": "Calvin Rhinesmith",
   "role": "FullStack Web Developer",
   "linkedinId": " https://www.linkedin.com/in/calvin-rhinesmith-225a34192/",
-  "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies,",
+  "roleDescription": "",
   "socialLinks": [
     {
       "name": "linkedin",
@@ -16,7 +16,7 @@ let resumeData = {
       "className": "fa fa-github"
     },
   ],
-  "aboutme": "Full Stack Web Developer with a background in Chemical Engineering and life-long dedication to learning. Effective at combining creativity and problem solving to develop user-friendly applications. Known among staff for strong wit and attention to detail no matter the complexity of the project.",
+  "aboutme": "Full Stack Web Developer with a background in Chemical Engineering and life-long dedication to learning. Recently earned a certificate in Full Stack Development from the Georgia Institute of Technology. Effective at combining creativity and problem solving to develop user-friendly applications. Known among staff for strong wit and attention to detail no matter the complexity of the project.",
   "address": "United States",
   "website": "https://github.com/crhinesmith",
   "education": [
@@ -82,21 +82,24 @@ let resumeData = {
   "portfolio": [
     {
       "name": "alDente",
-      "description": "Tools: HTML, CSS, TailwindCSS, Moment.js ",
+      "description": "Search and save recipes to your cookbook",
+      "tools": " Tools: HTML, CSS, TailwindCSS, Moment.js",
       "imgurl": "images/portfolio/aldente.jpg",
-      "projecturl": "https://crhinesmith.github.io/alDente/"
+      "projecturl": "http://crhinesmith.github.io/alDente/"
     },
     {
       "name": "MeowWoof",
-      "description": "Tools: Node.js, JQuery UI, Handlebars, Bootstrap, Sendgrid, Mysql, and Sequelize, Moment.js ",
+      "description": "Search pet shelter inventory, adopt, and volunteer for shelter",
+      "tools": " Tools: Node.js, JQuery UI, Handlebars, Bootstrap, Sendgrid, Mysql, Sequelize, and Moment.js",
       "imgurl": "images/portfolio/meowwoof.jpg",
-      "projecturl": "https://github.com/TeryKing/Project-MeowWoof"
+      "projecturl": "http://sleepy-lake-64431.herokuapp.com/"
     },
     {
       "name": "PWA-Text-Editor",
-      "description": "Tools: Webpack, Service Worker API, Express.js ",
+      "description": "Text editor that meets the criteria for Progressive Web Application",
+      "tools": "Tools: Webpack, Service Worker API, Express.js",
       "imgurl": "images/portfolio/jate.jpg",
-      "projecturl": "https://github.com/crhinesmith/19-Progressive-Web-Applications-PWA-Text-Editor"
+      "projecturl": "http://github.com/crhinesmith/19-Progressive-Web-Applications-PWA-Text-Editor"
     },
   ],
 
