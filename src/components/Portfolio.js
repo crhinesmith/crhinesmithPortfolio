@@ -21,7 +21,7 @@ export default class Porfolio extends Component {
                       <div className="item-wrap">
                         <a
                         //  onClick={() => handleClick(item.projecturl)}
-                        href={item.projecturl} target="_blank"
+                        href={item.projecturl} 
                          >
                           <img src={`${item.imgurl}`} className="item-img" />
                           <div className="overlay">
