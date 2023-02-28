@@ -55,7 +55,7 @@ let resumeData = {
   ],
   "skillsDescription": "Your skills here",
   "resume": [{
-    "resumeurl": "images/Resume-calvin_rhinesmith.pdf"
+    "resumeurl": "images/Resume-Developer-Role.pdf"
   }
 
   ],
