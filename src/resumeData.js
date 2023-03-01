@@ -101,7 +101,7 @@ let resumeData = {
       "description": "Text editor that meets the criteria for Progressive Web Application",
       "tools": "Tools: Webpack, Service Worker API, Express.js",
       "imgurl": "images/portfolio/jate.jpg",
-      "projecturl": "http://github.com/crhinesmith/19-Progressive-Web-Applications-PWA-Text-Editor",
+      "projecturl": "https://aqueous-shore-64056.herokuapp.com/",
       "repositoryurl": "https://github.com/crhinesmith/19-Progressive-Web-Applications-PWA-Text-Editor"
     },
   ],
