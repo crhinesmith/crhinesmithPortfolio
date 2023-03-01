@@ -85,21 +85,24 @@ let resumeData = {
       "description": "Search and save recipes to your cookbook",
       "tools": " Tools: HTML, CSS, TailwindCSS, Moment.js",
       "imgurl": "images/portfolio/aldente.jpg",
-      "projecturl": "http://crhinesmith.github.io/alDente/"
+      "projecturl": "http://crhinesmith.github.io/alDente/",
+      "repositoryurl": "http://github.com/crhinesmith/alDente"
     },
     {
       "name": "MeowWoof",
       "description": "Search pet shelter inventory, adopt, and volunteer for shelter",
       "tools": " Tools: Node.js, JQuery UI, Handlebars, Bootstrap, Sendgrid, Mysql, Sequelize, and Moment.js",
       "imgurl": "images/portfolio/meowwoof.jpg",
-      "projecturl": "http://sleepy-lake-64431.herokuapp.com/"
+      "projecturl": "http://sleepy-lake-64431.herokuapp.com/",
+      "repositoryurl": "https://github.com/TeryKing/Project-MeowWoof"
     },
     {
       "name": "PWA-Text-Editor",
       "description": "Text editor that meets the criteria for Progressive Web Application",
       "tools": "Tools: Webpack, Service Worker API, Express.js",
       "imgurl": "images/portfolio/jate.jpg",
-      "projecturl": "http://github.com/crhinesmith/19-Progressive-Web-Applications-PWA-Text-Editor"
+      "projecturl": "http://github.com/crhinesmith/19-Progressive-Web-Applications-PWA-Text-Editor",
+      "repositoryurl": "https://github.com/crhinesmith/19-Progressive-Web-Applications-PWA-Text-Editor"
     },
   ],
 
